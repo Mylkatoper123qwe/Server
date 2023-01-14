@@ -24,9 +24,9 @@ while True:
     # cur.execute(f"INSERT INTO workers (name, surname,age , salary) VALUES ('Marik','Perkanov',37,800)")
     # connection.commit()
 
-    cur.execute("SELECT rowid, name, surname, age, salary FROM workers")
-    connection.commit()
-    res = cur.fetchall()
-    print(res)
+    # cur.execute("SELECT rowid, name, surname, age, salary FROM workers")
+    # connection.commit()
+    # res = cur.fetchall()
+    # print(res)
 
     connection.close()
